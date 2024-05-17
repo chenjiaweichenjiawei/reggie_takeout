@@ -1,2 +1,2 @@
 # reggie_takeout
-Java单体外卖点赞系统
+外卖点餐系统，前后端分离模式，Java后端，Vue前端
