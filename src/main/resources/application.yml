@@ -1,0 +1,19 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    username: root
+    password: CJW3117132432
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/reggie?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&useSSL=false
+  main:
+    allow-circular-references: true
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+reggie:
+  path: D:\瑞吉外卖项目\reggie_takeout\src\main\resources\photos\
